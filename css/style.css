@@ -787,6 +787,7 @@ i {
   }
 
   #service .container {
+    padding: 15px;
     min-height: 700px;
     background-position: center;
   }
@@ -916,6 +917,11 @@ i {
 
   .col1, .col2 {
     margin-bottom: 20px;
+  }
+}
+@media (max-height: 500px) {
+  .main-article__wrapper {
+    margin-top: 2%;
   }
 }
 /*# sourceMappingURL=style.css.map */
