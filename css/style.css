@@ -199,14 +199,24 @@ body, html {
   transition: all 0.5s ease-out;
 }
 
-.col:hover {
-  flex-grow: 1;
+.col:hover .main-image {
+  width: 120%;
+  height: 120%;
+  margin-left: -10%;
+  margin-top: -10%;
+}
+
+.img-wrap {
+  width: 100%;
+  height: 315px;
+  overflow: hidden;
 }
 
 .main-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transition: all 0.5s;
 }
 
 .date {
@@ -276,15 +286,9 @@ body, html {
   font-family: "Raleway", sans-serif;
   font-weight: normal;
   font-size: 20px;
-  color: white;
   margin: 150px auto;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   cursor: pointer;
-}
-
-.main-btn:hover {
-  background-color: white;
-  color: #262626;
 }
 
 /* ---------BLOG END---------- */
@@ -411,17 +415,21 @@ body, html {
   height: 55px;
   width: 200px;
   background-color: #FF6033;
+  border: 1px solid #FF6033;
+  color: white;
+  transition: all 0.5s;
   text-align: center;
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
   font-weight: 300;
   font-size: 20px;
   margin: 0 !important;
-  color: white;
-  margin: 0;
-  border: none;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   cursor: pointer;
+}
+.btn:hover {
+  color: #FF6033;
+  background-color: white;
 }
 
 .scroll {
@@ -628,6 +636,13 @@ body, html {
 
 .gallery-btn {
   background-color: #5585A2;
+  border: 1px solid #5585A2;
+  color: white;
+  transition: all 0.5s;
+}
+.gallery-btn:hover {
+  color: #5585A2;
+  background-color: white;
 }
 
 #subscribe {
@@ -674,6 +689,24 @@ body, html {
   margin: 0;
   margin-left: 30px;
   background-color: #96B92C;
+  border: 1px solid #96B92C;
+  color: white;
+  transition: all 0.5s;
+}
+.submit:hover {
+  color: #96B92C;
+  background-color: white;
+}
+
+.blog-btn {
+  background-color: #F72B3B;
+  border: 1px solid #F72B3B;
+  color: white;
+  transition: all 0.5s;
+}
+.blog-btn:hover {
+  color: #F72B3B;
+  background-color: white;
 }
 
 i {
