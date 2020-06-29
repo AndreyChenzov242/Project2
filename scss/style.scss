@@ -277,7 +277,7 @@ body, html{
 .main-btn{
     height: 55px;
     width: 200px;
-    background-color: #F72B3B;
+    //background-color: #F72B3B;
     text-align: center;
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
@@ -285,13 +285,14 @@ body, html{
     font-size: 20px;
     color: white;
     margin: 150px auto;
-    border: none;
+    //border: 1px solid #F72B3B;
     box-shadow: 0 0 5px rgba(0,0,0,0.5);
     cursor: pointer;
 }
 
 .main-btn:hover{
-    box-shadow: 0 0 5px rgba(0,0,0,1);;
+    background-color: white;
+    color: #262626;
 }
 
 /* ---------BLOG END---------- */
