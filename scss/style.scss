@@ -808,6 +808,7 @@ i{
     #service{
         
         .container{
+            padding: 15px;
             min-height: 700px;
             background-position: center;
             .service-wrap{
@@ -958,5 +959,7 @@ i{
     .col1,.col2{
         margin-bottom: 20px;
     }
+
+    
 
 }
